@@ -1,0 +1,1 @@
+SELECT DISTINCT casa_discografica  FROM grabacion_tp_1_table_c WHERE tipo = '1';
