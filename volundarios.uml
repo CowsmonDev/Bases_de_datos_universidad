@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_esq_voluntario.continente</OriginalElement>
+  <nodes>
+    <node x="-546.0730441133587" y="24.791938056878422">4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_esq_voluntario.institucion</node>
+    <node x="-1000.2723616945068" y="116.13086156962628">4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_esq_voluntario.historico</node>
+    <node x="-217.39417472566834" y="305.11205137132606">4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_esq_voluntario.pais</node>
+    <node x="-237.39417472566834" y="519.599303495972">4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_esq_voluntario.continente</node>
+    <node x="-636.5977653631286" y="523.9357541899442">4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_esq_voluntario.voluntario</node>
+    <node x="-219.89417472566834" y="24.79193805687845">4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_esq_voluntario.direccion</node>
+    <node x="-999.2723616945068" y="490.1251641951665">4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_esq_voluntario.tarea</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_esq_voluntario.historico" target="4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_esq_voluntario.voluntario" relationship="REFERENCES">
+      <point x="-87.5" y="0.0" />
+      <point x="-1017.7723616945068" y="206.6308615696263" />
+      <point x="-1017.7723616945068" y="728.436" />
+      <point x="-96.0" y="30.000245810055844" />
+    </edge>
+    <edge source="4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_esq_voluntario.historico" target="4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_esq_voluntario.institucion" relationship="REFERENCES">
+      <point x="87.5" y="-83.00000000000001" />
+      <point x="-101.0" y="22.338923512747854" />
+    </edge>
+    <edge source="4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_esq_voluntario.institucion" target="4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_esq_voluntario.direccion" relationship="REFERENCES">
+      <point x="101.0" y="0.0" />
+      <point x="-134.89417472566834" y="101.29193805687842" />
+      <point x="0.0" y="-104.5" />
+    </edge>
+    <edge source="4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_esq_voluntario.pais" target="4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_esq_voluntario.continente" relationship="REFERENCES">
+      <point x="-15.0" y="62.5" />
+      <point x="-15.0" y="-48.5" />
+    </edge>
+    <edge source="4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_esq_voluntario.voluntario" target="4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_esq_voluntario.voluntario" relationship="REFERENCES">
+      <point x="0.0" y="174.5" />
+      <point x="-540.5977653631286" y="890.4357541899442" />
+      <point x="-326.5730441133587" y="890.4357541899442" />
+      <point x="-326.5730441133587" y="698.4357541899442" />
+      <point x="96.0" y="0.0" />
+    </edge>
+    <edge source="4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_esq_voluntario.voluntario" target="4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_esq_voluntario.tarea" relationship="REFERENCES">
+      <point x="-96.0" y="-131.81058999477773" />
+      <point x="86.5" y="0.0" />
+    </edge>
+    <edge source="4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_esq_voluntario.direccion" target="4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_esq_voluntario.pais" relationship="REFERENCES">
+      <point x="0.0" y="104.50000000000006" />
+      <point x="0.0" y="-62.5" />
+    </edge>
+    <edge source="4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_esq_voluntario.voluntario" target="4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_esq_voluntario.institucion" relationship="REFERENCES">
+      <point x="88.5" y="-174.5" />
+      <point x="-7.024721249769868" y="76.5" />
+    </edge>
+    <edge source="4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_esq_voluntario.institucion" target="4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_esq_voluntario.voluntario" relationship="REFERENCES">
+      <point x="-93.5" y="76.5" />
+      <point x="2.0247212497698683" y="-174.5" />
+    </edge>
+    <edge source="4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_esq_voluntario.historico" target="4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_esq_voluntario.tarea" relationship="REFERENCES">
+      <point x="0.0" y="90.5" />
+      <point x="0.0" y="-76.49999999999994" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.8126151012891345" showDependencies="false" x="-498.3943342776205" y="459.06402266288956" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Columns</Category>
+    <Category>Comments</Category>
+    <Category>Key columns</Category>
+    <Category>Virtual foreign keys</Category>
+  </Categories>
+</Diagram>
+

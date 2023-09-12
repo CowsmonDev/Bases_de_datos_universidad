@@ -5,10 +5,11 @@
     <file url="file://$PROJECT_DIR$/Practico 1/Ejercicio a/inserts/insert_five_registers.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/Practico 1/Ejercicio b/create_tables.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/Practico 1/Ejercicio c/create_tables.sql" dialect="PostgreSQL" />
-    <file url="file://$PROJECT_DIR$/Practico 2/Ejercicio 1/Enunciado 1.sql" dialect="PostgreSQL" />
-    <file url="file://$PROJECT_DIR$/Practico 2/Ejercicio 1/Enunciado 2.sql" dialect="PostgreSQL" />
-    <file url="file://$PROJECT_DIR$/Practico 2/Ejercicio 2/Enundiado 1.sql" dialect="PostgreSQL" />
-    <file url="file://$PROJECT_DIR$/Practico 2/Ejercicio 6/Enunciados.sql" dialect="PostgreSQL" />
-    <file url="file://$PROJECT_DIR$/Practico 2/adicionales/voluntarios.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/Practico 2 Primera Parte/Ejercicio 1/Enunciado 1.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/Practico 2 Primera Parte/Ejercicio 1/Enunciado 2.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/Practico 2 Primera Parte/Ejercicio 2/Enundiado 1.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/Practico 2 Primera Parte/Ejercicio 6/Enunciados.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/Practico 2 Primera Parte/adicionales/voluntarios.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/Practico 2 Segunda Parte/Ejercicio2.sql" dialect="PostgreSQL" />
   </component>
 </project>

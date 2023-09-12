@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_esq_peliculas.ciudad</OriginalElement>
+  <nodes>
+    <node x="-36.465721038786114" y="323.17586402266295">4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_esq_peliculas.video</node>
+    <node x="208.32361111111106" y="-28.0">4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_esq_peliculas.ciudad</node>
+    <node x="651.9308659217877" y="637.0703910614525">4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_esq_peliculas.nacional</node>
+    <node x="-438.1959342902812" y="674.0">4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_esq_peliculas.renglon_entrega</node>
+    <node x="-276.54957507082156" y="-39.37575070821515">4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_esq_peliculas.empresa_productora</node>
+    <node x="472.89139690961395" y="-251.22096317280455">4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_esq_peliculas.tarea</node>
+    <node x="775.1308540962187" y="295.5083798882681">4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_esq_peliculas.departamento</node>
+    <node x="-48.465721038786114" y="646.0">4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_esq_peliculas.entrega</node>
+    <node x="370.6763888888888" y="261.0">4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_esq_peliculas.distribuidor</node>
+    <node x="741.9591827081168" y="-303.5297811258645">4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_esq_peliculas.empleado</node>
+    <node x="-475.60783096646105" y="275.3121246458924">4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_esq_peliculas.pelicula</node>
+    <node x="245.997346368715" y="674.0">4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_esq_peliculas.internacional</node>
+    <node x="218.82361111111106" y="-223.22096317280455">4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_esq_peliculas.pais</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_esq_peliculas.entrega" target="4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_esq_peliculas.video" relationship="REFERENCES">
+      <point x="-15.000278961213894" y="-76.5" />
+      <point x="-21.000278961213894" y="90.5" />
+    </edge>
+    <edge source="4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_esq_peliculas.empleado" target="4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_esq_peliculas.empleado" relationship="REFERENCES">
+      <point x="0.0" y="-188.5" />
+      <point x="836.4591827081168" y="-321.0297811258645" />
+      <point x="993.6308540962187" y="-321.0297811258645" />
+      <point x="993.6308540962187" y="-115.02978112586447" />
+      <point x="94.5" y="0.0" />
+    </edge>
+    <edge source="4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_esq_peliculas.departamento" target="4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_esq_peliculas.distribuidor" relationship="REFERENCES">
+      <point x="-100.5" y="-62.50837988826811" />
+      <point x="86.5" y="0.0" />
+    </edge>
+    <edge source="4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_esq_peliculas.renglon_entrega" target="4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_esq_peliculas.entrega" relationship="REFERENCES">
+      <point x="89.0" y="-14.0" />
+      <point x="-86.5" y="0.0" />
+    </edge>
+    <edge source="4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_esq_peliculas.departamento" target="4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_esq_peliculas.empleado" relationship="REFERENCES">
+      <point x="15.000145903781231" y="-118.5" />
+      <point x="54.171817291883144" y="188.5" />
+    </edge>
+    <edge source="4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_esq_peliculas.empleado" target="4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_esq_peliculas.departamento" relationship="REFERENCES">
+      <point x="69.17181729188314" y="188.5" />
+      <point x="30.00014590378123" y="-118.5" />
+    </edge>
+    <edge source="4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_esq_peliculas.nacional" target="4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_esq_peliculas.internacional" relationship="REFERENCES">
+      <point x="-101.5" y="8.929608938547517" />
+      <point x="86.5" y="0.0" />
+    </edge>
+    <edge source="4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_esq_peliculas.entrega" target="4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_esq_peliculas.distribuidor" relationship="REFERENCES">
+      <point x="86.5" y="0.0" />
+      <point x="172.0342789612139" y="722.5" />
+      <point x="172.0342789612139" y="351.5" />
+      <point x="-86.5" y="0.0" />
+    </edge>
+    <edge source="4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_esq_peliculas.renglon_entrega" target="4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_esq_peliculas.pelicula" relationship="REFERENCES">
+      <point x="-29.91189667617988" y="-62.5" />
+      <point x="0.0" y="104.5" />
+    </edge>
+    <edge source="4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_esq_peliculas.ciudad" target="4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_esq_peliculas.pais" relationship="REFERENCES">
+      <point x="0.0" y="-62.5" />
+      <point x="0.0" y="48.5" />
+    </edge>
+    <edge source="4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_esq_peliculas.empresa_productora" target="4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_esq_peliculas.ciudad" relationship="REFERENCES">
+      <point x="103.0" y="11.37575070821515" />
+      <point x="-93.0" y="0.0" />
+    </edge>
+    <edge source="4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_esq_peliculas.departamento" target="4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_esq_peliculas.ciudad" relationship="REFERENCES">
+      <point x="1.459037812310271E-4" y="-118.50037988826813" />
+      <point x="875.631" y="179.0" />
+      <point x="301.324" y="179.0" />
+      <point x="3.888888889491682E-4" y="62.5" />
+    </edge>
+    <edge source="4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_esq_peliculas.empleado" target="4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_esq_peliculas.tarea" relationship="REFERENCES">
+      <point x="-94.5" y="-59.69118204694007" />
+      <point x="90.0" y="0.0" />
+    </edge>
+    <edge source="4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_esq_peliculas.pelicula" target="4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_esq_peliculas.empresa_productora" relationship="REFERENCES">
+      <point x="0.0" y="-104.5" />
+      <point x="-379.10783096646105" y="23.12424929178485" />
+      <point x="-103.0" y="0.0" />
+    </edge>
+    <edge source="4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_esq_peliculas.internacional" target="4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_esq_peliculas.distribuidor" relationship="REFERENCES">
+      <point x="79.0" y="-48.5" />
+      <point x="-45.67904252017382" y="90.5" />
+    </edge>
+    <edge source="4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_esq_peliculas.nacional" target="4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_esq_peliculas.distribuidor" relationship="REFERENCES">
+      <point x="-101.5" y="-6.070391061452483" />
+      <point x="457.1763888888888" y="707.5" />
+      <point x="0.0" y="90.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.8123159057437411" showDependencies="false" x="1046.805262322946" y="58.96939603399409" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Columns</Category>
+    <Category>Comments</Category>
+    <Category>Key columns</Category>
+    <Category>Virtual foreign keys</Category>
+  </Categories>
+</Diagram>
+
