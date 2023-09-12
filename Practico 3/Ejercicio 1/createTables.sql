@@ -1,0 +1,64 @@
+SET SEARCH_PATH = "unc_250359";
+
+DROP TABLE IF EXISTS AUSPICIO_tp_3_ej1;
+DROP TABLE IF EXISTS TRABAJA_EN_tp_3_ej1;
+DROP TABLE IF EXISTS PROYECTO_tp_3_ej1;
+DROP TABLE IF EXISTS EMPLEADO_tp_3_ej1;
+
+CREATE TABLE EMPLEADO_tp_3_ej1
+(
+    TipoE VARCHAR(1) NOT NULL,
+    NroE INT NOT NULL,
+    Nombre VARCHAR(20) NOT NULL,
+    Cargo VARCHAR(20) NOT NULL,
+    PRIMARY KEY (TipoE, NroE)
+);
+
+CREATE TABLE PROYECTO_tp_3_ej1
+(
+    IdProy INT NOT NULL,
+    NombreProy VARCHAR(20) NOT NULL,
+    AnioComienzo INT NOT NULL,
+    AnioFinal INT NULL,
+    PRIMARY KEY (IdProy)
+);
+
+CREATE TABLE TRABAJA_EN_tp_3_ej1
+(
+    TipoE  VARCHAR(1) NOT NULL,
+    NroE   INT        NOT NULL,
+    IdProy INT        NOT NULL,
+    PRIMARY KEY (TipoE, NroE, IdProy)
+);
+
+CREATE TABLE AUSPICIO_tp_3_ej1(
+    IdProy INT NOT NULL,
+    NombreAuspiciate VARCHAR(20) NOT NULL,
+    TipoE VARCHAR(1) NOT NULL,
+    NroE INT NOT NULL,
+    PRIMARY KEY (IdProy, NombreAuspiciate)
+);
+
+ALTER TABLE TRABAJA_EN_tp_3_ej1
+        ADD CONSTRAINT FK_TRABAJA_EN_tp_3_ej1
+            FOREIGN KEY (TipoE, NroE) REFERENCES EMPLEADO_tp_3_ej1 (TipoE, NroE)
+                ON DELETE CASCADE
+                ON UPDATE RESTRICT;
+
+ALTER TABLE TRABAJA_EN_tp_3_ej1
+        ADD CONSTRAINT FK_TRABAJA_EN_tp_3_ej1_2
+            FOREIGN KEY (IdProy) REFERENCES PROYECTO_tp_3_ej1 (IdProy)
+                ON DELETE RESTRICT
+                ON UPDATE CASCADE;
+
+ALTER TABLE AUSPICIO_tp_3_ej1
+        ADD CONSTRAINT FK_AUSPICIO_tp_3_ej1
+            FOREIGN KEY (IdProy) REFERENCES PROYECTO_tp_3_ej1 (IdProy)
+                ON DELETE RESTRICT
+                ON UPDATE RESTRICT;
+
+ALTER TABLE AUSPICIO_tp_3_ej1
+        ADD CONSTRAINT FK_AUSPICIO_tp_3_ej1_2
+            FOREIGN KEY (TipoE, NroE) REFERENCES EMPLEADO_tp_3_ej1 (TipoE, NroE)
+                ON DELETE SET NULL
+                ON UPDATE RESTRICT;
