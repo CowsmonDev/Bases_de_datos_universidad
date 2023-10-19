@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/Practica Parcial/Parcial 11_10_22/Table.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/Practico 1/Ejercicio a/create_tables.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/Practico 1/Ejercicio a/inserts/insert_five_registers.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/Practico 1/Ejercicio b/create_tables.sql" dialect="PostgreSQL" />
@@ -12,5 +13,9 @@
     <file url="file://$PROJECT_DIR$/Practico 2 Primera Parte/adicionales/voluntarios.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/Practico 2 Segunda Parte/Ejercicio2.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/Practico 2 Segunda Parte/EjerciciosAdicionales/Voluntarios.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/clear_unc_250359.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/esq_scripts/unc_esq_peliculas.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/esq_scripts/unc_esq_voluntario.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/../ResidenciasPagos/DB/TriggersAndFunctions/users.sql" dialect="PostgreSQL" />
   </component>
 </project>
