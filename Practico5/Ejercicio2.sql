@@ -15,5 +15,24 @@ CREATE VIEW unc_250359.EMPLEADO_DIST_20_70 AS
     SELECT * FROM EMPLEADO_DIST_20 WHERE fecha_nacimiento BETWEEN  to_date('1970-01-01', 'YYYY-MM-DD') AND to_date('1979-12-31', 'YYYY-MM-DD');
 
 --4) Cree una vista PELICULAS_ENTREGADAS que contenga el código de cada película y la cantidad de unidades entregadas.
+
+CREATE VIEW unc_250359.PELICULAS_ENTREGADAS AS
+    SELECT codigo_pelicula, SUM(cantidad) FROM peliculas_renglon_entrega GROUP BY codigo_pelicula;
+
 --5) Cree una vista DISTRIB_NAC con los el id de las distribuidoras nacionales, nro_incripcion y encargado, con distribuidor mayorista del país AR
+
+SELECT * FROM peliculas_nacional
+INNER JOIN peliculas_internacional pi on peliculas_nacional.id_distrib_mayorista = pi.id_distribuidor
+
+SELECT * FROM peliculas_nacional
+WHERE id_distrib_mayorista IN (SELECT id_distribuidor FROM peliculas_internacional)
+
+SELECT * FROM peliculas_internacional WHERE codigo_pais = 'AR';
+
+SELECT id_distrib_mayorista FROM peliculas_nacional GROUP BY id_distrib_mayorista;
+
+SELECT codigo_pais FROM peliculas_internacional
+WHERE codigo_pais = 'AR'
+GROUP BY codigo_pais;
+
 --6) Usando la vista anterior, cree la vista DISTRIB_NAC_MAS2EMP con los datos completos de las distribuidoras nacionales cuyos departamentos tengan más de 2 empleados.
