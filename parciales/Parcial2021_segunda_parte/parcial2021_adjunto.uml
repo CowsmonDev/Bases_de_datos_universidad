@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_250359.parcial2021_adjunto</OriginalElement>
+  <nodes>
+    <node x="-102.93596059113304" y="106.5">4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_250359.parcial2021_mensaje</node>
+    <node x="196.3879310344828" y="190.5">4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_250359.parcial2021_imagen</node>
+    <node x="-106.93596059113304" y="-109.85837438423647">4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_250359.parcial2021_contiene</node>
+    <node x="303.09090909090907" y="-101.25">4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_250359.parcial2021_adjunto</node>
+    <node x="439.42857142857156" y="190.5">4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_250359.parcial2021_audio</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_250359.parcial2021_audio" target="4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_250359.parcial2021_adjunto" relationship="REFERENCES">
+      <point x="-31.837662337662493" y="-48.0" />
+      <point x="96.0" y="90.0" />
+    </edge>
+    <edge source="4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_250359.parcial2021_imagen" target="4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_250359.parcial2021_adjunto" relationship="REFERENCES">
+      <point x="102.0" y="0.0" />
+      <point x="420.1379310344828" y="238.5" />
+      <point x="420.1379310344828" y="173.0" />
+      <point x="446.9289310344828" y="173.0" />
+      <point x="446.9289310344828" y="125.875" />
+      <point x="418.791" y="125.875" />
+      <point x="12.200090909090932" y="90.0" />
+    </edge>
+    <edge source="4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_250359.parcial2021_contiene" target="4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_250359.parcial2021_adjunto" relationship="REFERENCES">
+      <point x="108.0" y="22.60837438423647" />
+      <point x="-103.5" y="0.0" />
+    </edge>
+    <edge source="4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_250359.parcial2021_contiene" target="4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_250359.parcial2021_mensaje" relationship="REFERENCES">
+      <point x="0.0" y="76.0" />
+      <point x="1.064039408866961" y="-37.125" />
+      <point x="3.064039408866961" y="-37.125" />
+      <point x="0.0" y="-90.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.7463235294117647" showDependencies="false" x="222.00000000000006" y="48.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Columns</Category>
+    <Category>Comments</Category>
+    <Category>Key columns</Category>
+    <Category>Virtual foreign keys</Category>
+  </Categories>
+</Diagram>
+

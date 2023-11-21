@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_250359.parcial2022_area</OriginalElement>
+  <nodes>
+    <node x="-449.01777777777767" y="45.39022222222221">4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_250359.parcial2022_area</node>
+    <node x="-81.5" y="329.97511111111106">4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_250359.parcial2022_recursos_proyecto</node>
+    <node x="327.9835555555555" y="656.0">4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_250359.parcial2022_recurso</node>
+    <node x="-453.51777777777767" y="628.0">4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_250359.parcial2022_etapa</node>
+    <node x="-53.5" y="642.0">4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_250359.parcial2022_uso_recurso</node>
+    <node x="-468.01777777777767" y="329.97511111111106">4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_250359.parcial2022_proyecto</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_250359.parcial2022_etapa" target="4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_250359.parcial2022_proyecto" relationship="REFERENCES">
+      <point x="0.0" y="-104.0" />
+      <point x="0.0" y="104.0" />
+    </edge>
+    <edge source="4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_250359.parcial2022_proyecto" target="4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_250359.parcial2022_area" relationship="REFERENCES">
+      <point x="0.0" y="-104.0" />
+      <point x="0.0" y="90.0" />
+    </edge>
+    <edge source="4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_250359.parcial2022_uso_recurso" target="4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_250359.parcial2022_recurso" relationship="REFERENCES">
+      <point x="124.0" y="0.0" />
+      <point x="-105.0" y="0.0" />
+    </edge>
+    <edge source="4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_250359.parcial2022_uso_recurso" target="4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_250359.parcial2022_etapa" relationship="REFERENCES">
+      <point x="-124.0" y="0.0" />
+      <point x="97.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.6961633663366338" showDependencies="false" x="52.46115555555548" y="535.0755555555554" />
+  <SelectedNodes>
+    <node>4e472b2b-810f-423d-b7a5-f69618d303d2.TABLE:Ing23.unc_250359.parcial2022_recurso</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Columns</Category>
+    <Category>Comments</Category>
+    <Category>Key columns</Category>
+    <Category>Virtual foreign keys</Category>
+  </Categories>
+</Diagram>
+
